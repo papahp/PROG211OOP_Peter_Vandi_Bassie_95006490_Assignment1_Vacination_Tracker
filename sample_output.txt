@@ -1,0 +1,338 @@
+##### Run s1
+==============================================
+  COMMUNITY VACCINATION TRACKER
+  No names or contact details are stored.
+==============================================
+
+1. Add a record
+2. Show all records
+3. Record a dose
+4. Find a record by ID
+5. Coverage summary
+6. Show vaccine schedules
+0. Exit
+Choose an option: 2
+
+--- All records ---
+  Record ID : VT-0001
+  Age group : 1-4 years
+  District  : Bo
+  Vaccine   : Measles-Rubella
+  Doses     : 1 of 2
+  Status    : IN PROGRESS, next dose due 2027-03-14
+  ----------------------------------------
+  Record ID : VT-0002
+  Age group : 0-11 months
+  District  : Kenema
+  Vaccine   : Yellow Fever
+  Doses     : 0 of 1
+  Status    : NOT STARTED
+  ----------------------------------------
+
+1. Add a record
+2. Show all records
+3. Record a dose
+4. Find a record by ID
+5. Coverage summary
+6. Show vaccine schedules
+0. Exit
+Choose an option: 0
+Goodbye.
+
+##### Run s2
+==============================================
+  COMMUNITY VACCINATION TRACKER
+  No names or contact details are stored.
+==============================================
+
+1. Add a record
+2. Show all records
+3. Record a dose
+4. Find a record by ID
+5. Coverage summary
+6. Show vaccine schedules
+0. Exit
+Choose an option: 6
+
+--- Vaccine schedules ---
+  Measles-Rubella: 2 dose(s), 180 days apart
+  Pentavalent: 3 dose(s), 28 days apart
+  Yellow Fever: 1 dose(s), 0 days apart
+
+1. Add a record
+2. Show all records
+3. Record a dose
+4. Find a record by ID
+5. Coverage summary
+6. Show vaccine schedules
+0. Exit
+Choose an option: 5
+
+--- Coverage summary ---
+  Records in registry : 2
+  Fully vaccinated    : 0
+  Still due a dose    : 2
+  Coverage            : 0%
+  Recipient objects created: 2
+
+1. Add a record
+2. Show all records
+3. Record a dose
+4. Find a record by ID
+5. Coverage summary
+6. Show vaccine schedules
+0. Exit
+Choose an option: 0
+Goodbye.
+
+##### Run s3
+==============================================
+  COMMUNITY VACCINATION TRACKER
+  No names or contact details are stored.
+==============================================
+
+1. Add a record
+2. Show all records
+3. Record a dose
+4. Find a record by ID
+5. Coverage summary
+6. Show vaccine schedules
+0. Exit
+Choose an option: 1
+
+--- Add a record ---
+  New record ID (format VT-0001): VT-0003
+  Age group:
+    1. 0-11 months
+    2. 1-4 years
+    3. 5-14 years
+    4. 15-49 years
+    5. 50+ years
+  Enter number: 3
+  District:
+    1. Bo
+    2. Bombali
+    3. Bonthe
+    4. Falaba
+    5. Kailahun
+    6. Kambia
+    7. Karene
+    8. Kenema
+    9. Koinadugu
+    10. Kono
+    11. Moyamba
+    12. Port Loko
+    13. Pujehun
+    14. Tonkolili
+    15. Western Area Rural
+    16. Western Area Urban
+  Enter number: 2
+  Vaccine:
+    1. Measles-Rubella
+    2. Pentavalent
+    3. Yellow Fever
+  Enter number: 2
+  Saved record VT-0003.
+
+1. Add a record
+2. Show all records
+3. Record a dose
+4. Find a record by ID
+5. Coverage summary
+6. Show vaccine schedules
+0. Exit
+Choose an option: 2
+
+--- All records ---
+  Record ID : VT-0001
+  Age group : 1-4 years
+  District  : Bo
+  Vaccine   : Measles-Rubella
+  Doses     : 1 of 2
+  Status    : IN PROGRESS, next dose due 2027-03-14
+  ----------------------------------------
+  Record ID : VT-0002
+  Age group : 0-11 months
+  District  : Kenema
+  Vaccine   : Yellow Fever
+  Doses     : 0 of 1
+  Status    : NOT STARTED
+  ----------------------------------------
+  Record ID : VT-0003
+  Age group : 5-14 years
+  District  : Bombali
+  Vaccine   : Pentavalent
+  Doses     : 0 of 3
+  Status    : NOT STARTED
+  ----------------------------------------
+
+1. Add a record
+2. Show all records
+3. Record a dose
+4. Find a record by ID
+5. Coverage summary
+6. Show vaccine schedules
+0. Exit
+Choose an option: 0
+Goodbye.
+
+##### Run s4
+==============================================
+  COMMUNITY VACCINATION TRACKER
+  No names or contact details are stored.
+==============================================
+
+1. Add a record
+2. Show all records
+3. Record a dose
+4. Find a record by ID
+5. Coverage summary
+6. Show vaccine schedules
+0. Exit
+Choose an option: 3
+
+--- Record a dose ---
+  Record ID: VT-0001
+  Dose recorded. 2 of 2 done.
+
+1. Add a record
+2. Show all records
+3. Record a dose
+4. Find a record by ID
+5. Coverage summary
+6. Show vaccine schedules
+0. Exit
+Choose an option: 4
+
+--- Find a record ---
+  Record ID: VT-0001
+  Record ID : VT-0001
+  Age group : 1-4 years
+  District  : Bo
+  Vaccine   : Measles-Rubella
+  Doses     : 2 of 2
+  Status    : COMPLETE
+
+1. Add a record
+2. Show all records
+3. Record a dose
+4. Find a record by ID
+5. Coverage summary
+6. Show vaccine schedules
+0. Exit
+Choose an option: 0
+Goodbye.
+
+##### Run s5
+==============================================
+  COMMUNITY VACCINATION TRACKER
+  No names or contact details are stored.
+==============================================
+
+1. Add a record
+2. Show all records
+3. Record a dose
+4. Find a record by ID
+5. Coverage summary
+6. Show vaccine schedules
+0. Exit
+Choose an option: 1
+
+--- Add a record ---
+  New record ID (format VT-0001): VT-0001
+  Record VT-0001 already exists. Nothing saved.
+
+1. Add a record
+2. Show all records
+3. Record a dose
+4. Find a record by ID
+5. Coverage summary
+6. Show vaccine schedules
+0. Exit
+Choose an option: 1
+
+--- Add a record ---
+  New record ID (format VT-0001): BAD1
+  Invalid ID. Use the format VT-0001.
+
+1. Add a record
+2. Show all records
+3. Record a dose
+4. Find a record by ID
+5. Coverage summary
+6. Show vaccine schedules
+0. Exit
+Choose an option: 4
+
+--- Find a record ---
+  Record ID: VT-9999
+  No record with that ID.
+
+1. Add a record
+2. Show all records
+3. Record a dose
+4. Find a record by ID
+5. Coverage summary
+6. Show vaccine schedules
+0. Exit
+Choose an option: 0
+Goodbye.
+
+##### Run s6
+==============================================
+  COMMUNITY VACCINATION TRACKER
+  No names or contact details are stored.
+==============================================
+
+1. Add a record
+2. Show all records
+3. Record a dose
+4. Find a record by ID
+5. Coverage summary
+6. Show vaccine schedules
+0. Exit
+Choose an option: 3
+
+--- Record a dose ---
+  Record ID: VT-0002
+  Dose recorded. 1 of 1 done.
+
+1. Add a record
+2. Show all records
+3. Record a dose
+4. Find a record by ID
+5. Coverage summary
+6. Show vaccine schedules
+0. Exit
+Choose an option: 3
+
+--- Record a dose ---
+  Record ID: VT-0002
+  This person has already completed the course.
+
+1. Add a record
+2. Show all records
+3. Record a dose
+4. Find a record by ID
+5. Coverage summary
+6. Show vaccine schedules
+0. Exit
+Choose an option: 5
+
+--- Coverage summary ---
+  Records in registry : 2
+  Fully vaccinated    : 1
+  Still due a dose    : 1
+  Coverage            : 50%
+  Recipient objects created: 2
+
+1. Add a record
+2. Show all records
+3. Record a dose
+4. Find a record by ID
+5. Coverage summary
+6. Show vaccine schedules
+0. Exit
+Choose an option: 0
+Goodbye.
+
